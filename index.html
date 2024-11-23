@@ -1,157 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samuel Mersha - Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/292772c038.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-</head>
-<body>
-    <section id="intro">
-        <h1>Samuel Mersha</h1>
-        <p>Freelance System and Web Developer</p>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
     <header>
+      <div class="header-wrapper">
+        <h3>🔥 Amani</h3>
         <nav>
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-user"></i> About</a></li>
-                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-                <li><a href="#certifications"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-address-card"></i> Contact</a></li>
-            </ul>
+          <a href="#contact">
+            <button>Contact me</button>
+          </a>
         </nav>
-        <nav id="mobile-only">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-user"></i> About</a></li>
-                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-                <li><a href="#certifications"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-address-card"></i> Contact</a></li>
-            </ul>
-        </nav>
+      </div>
     </header>
-    <main>
-        <section id="about">
-            <h2><i class="fa-solid fa-user"></i> About</h2>
-            <h3>Freelance System and Web Developer passionate about creating user-friendly and visually appealing web experiences.</h3>
-            <div>
-                <div>
-                    <img src="assets/profile.jpg" alt="My Profile Picture">
-                </div>
-                <div id="sub-content">
-                    <p>
-                        As a versatile freelance developer, I possess 6 months of experience in both web and system development. Armed with a Bachelor's degree in Electrical and Computer Engineering (Computer Stream) from Jimma Institute of Technology, I excel in crafting modern websites and architecting robust systems.
-                    </p>
-                    <p>
-                        I bring a wealth of knowledge to every project. From user-friendly website interfaces to efficient system architectures, I am committed to delivering high-quality solutions that meet client needs and exceed expectations. Let's collaborate to bring your projects to life with creativity and precision.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
-            <ul class="project-list">
-                <li>
-                    <img src="assets/project-3.png" alt="Auto Internet Access Fault Reporter Admin Dashboard">
-                    <h3>Auto Internet Access Fault Reporter</h3>
-                    <p>Developed during my internship journey using Java GUI and SQL database. This system automatically detects and reports network faults, enhancing productivity and efficiency. While it has some limitations, it provides valuable benefits to customer service employees and network monitors, improving the bank's productivity and service quality.</p>
-                    <a href="https://github.com/sami-mersha/Auto-Internet-Access-Fault-Reporter">Github Link</a>
-                </li>
-                <li>
-                    <img src="assets/project-2.png" alt="Jimma Water Billing System Dashboard">
-                    <h3>Water Billing System</h3>
-                    <p>A project focused on modernizing data management and enhancing efficiency. This systematic database solution replaces manual processes with an intuitive graphical user interface, ensuring secure and reliable data handling. Developed using robust backend and frontend technologies, this application streamlines billing processes and improves customer satisfaction.</p>
-                    <a href="https://github.com/sami-mersha/Jimma-Water-Billing-System">Github Link</a>
-                </li>
-                <li>
-                    <img src="assets/project-1.png" alt="JU Lounge Management System Dashboard">
-                    <h3>JU Lounge Management System</h3>
-                    <p>Introducing the Credit Registration System for Jimma University Lounges. Streamline credit handling, reduce conflicts, and enhance security. Users manage credits and debts conveniently, while administrators receive timely notifications. Say goodbye to manual hassles and hello to seamless lounge services.</p>
-                    <a href="https://github.com/sami-mersha/JU-Lounge-Management-System">Github Link</a>
-                </li>
-            </ul>
-        </section>
-        <section id="certifications">
-            <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
-            <ul class="certifications-list">
-                <li>
-                    <h3>Responsive Web Design</h3>
-                    <p>From <a href="https://freeCodeCamp.com">freeCodeCamp</a></p>
-                    <hr>
-                    <p>Certified in Responsive Web Design using HTML and CSS, demonstrating proficiency in creating user-friendly and adaptable websites for various devices.</p>
-                    <div>
-                        <a href="https://www.freecodecamp.org/certification/fccde714837-1571-44ec-b5fe-818f42c3521a/responsive-web-design">Preview</a>
-                        <p>Feb 2024</p>
-                    </div>
-                </li>
-                <li>
-                    <h3>Project Management</h3>
-                    <p>From <a href="https://nbe.gov.et/">National Bank of Ethiopia</a></p>
-                    <hr>
-                    <p>Accredited in Project Management, demonstrating skills in planning, scheduling, budgeting, risk management, and stakeholder communication for successful project execution.</p>
-                    <div>
-                        <a href="https://drive.google.com/file/d/1vA_iNvoiQSbwTHHMnbrmVIEQmsY49ynb/view?usp=sharing">Preview</a>
-                        <p>Feb 2024</p>
-                    </div>
-                </li>
-                <li>
-                    <h3>Web Application Technologies and Django</h3>
-                    <p>From <a href="https://coursera.com">Coursera</a></p>
-                    <hr>
-                    <p>Accredited in Web Application Technologies and Django, showcasing expertise in developing robust and scalable web applications using the Django framework.</p>
-                    <div>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/9J4PY5V53H9Y">Preview</a>
-                        <p>Dec 2022</p>
-                    </div>
-                </li>
-                <li>
-                    <h3>Python Data Structures</h3>
-                    <p>From <a href="https://sololearn.com">Sololearn</a></p>
-                    <hr>
-                    <p>Certified in Python Data Structure, showcasing competence in fundamental data structures and their manipulation techniques in Python programming.</p>
-                    <div>
-                        <a href="https://www.sololearn.com/certificates/CT-ST6ZTJGL">Preview</a>
-                        <p>July 2022</p>
-                    </div>
-                </li>
-                <li>
-                    <h3>CCNA (Cisco Certified Network Associate)</h3>
-                    <p>From <a href="https://netacad.com">JU Cisco Networking Academy</a></p>
-                    <hr>
-                    <p>Certified as a CCNA, showcasing proficiency in networking fundamentals, IP addressing, routing, switching, and basic security concepts using Cisco technologies.</p>
-                    <div>
-                        <a href="https://www.credly.com/badges/caf311ec-9ca0-4756-859e-5272c8269b2c/linked_in_profile">Preview</a>
-                        <p>Feb 2022</p>
-                    </div>
-                </li>
-                <li>
-                    <h3>Java</h3>
-                    <p>From <a href="https://sololearn.com">Sololearn</a></p>
-                    <hr>
-                    <p>Certified in Java Programming, demonstrating proficiency in Java syntax, object-oriented programming principles, data types, control structures, and basic input/output operations. </p>
-                    <div>
-                        <a href="https://www.sololearn.com/en/certificates/CT-3SPG0CFS">Preview</a>
-                        <p>June 2021</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2><i class="fa-solid fa-address-card"></i> Contact</h2>
-            <h3>Feel free to reach out for any freelance inquiries.</h3>
-            <ul>
-                <li><a href="tel:+251901685340">Phone Number: +251901685340</a></li>
-                <li><a href="mailto:samimersha.ad@gmail.com">Email: samimersha.ad@gmail.com</a></li>
-                <li><a href="https://www.linkedin.com/in/sami-mersha/">LinkedIn Profile: @sami-mersha</a></li>
-            </ul>
-        </section>
-        <section id="credits">
-            <p><a target="_blank" href="https://icons8.com/icon/Meg71w7epZVz/portfolio">Portfolio</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Samuel Mersha 2024</p>
-    </footer>
-</body>
+
+    <!-- HERO -->
+    <div class="hero">
+      <div>
+        <img class="profile-img" src="./assets/profile.jpg" />
+      </div>
+      <h1>Hey, I'm Amanuel 👋</h1>
+      <p>Mechanical Engineer, Database Administrator</p>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about">
+      <div class="about-wrapper">
+        <div class="col">
+          <h2>About</h2>
+          <p>
+            My name is Amanuel Hoato Zeleke, recent graduate from Haramaya University and Haramaya Polytechnic college by Mechanical Engineering and Database Administration. 
+          </p>
+        </div>
+        <div class="skills col">
+          <h2>My Skills</h2>
+          <ul>
+            <li>Autocad</li>
+            <li>Solidworks</li>
+            <li>Sketching</li>
+            <li>Computer</li>
+            <li>Typing</li>
+            <li>Time Management</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- SOCIALS -->
+    <div class="socials" id="contact">
+      <div class="socials-wrapper">
+        <div>
+          <h2>Contact Me</h2>
+          <p>+251934984141</p>
+          <p>+251933140324</p>
+          <p>amubest116@gmail.com</p>
+          <p>Addis Abeba, Ethiopia</p>
+        </div>
+        <div class="social-icons">
+          <a href="#"><img src="./assets/github.svg" /></a>
+          <a href="#"><img src="./assets/linkedin.svg" /></a>
+          <a href="#"><img src="./assets/twitter.svg" /></a>
+          <a href="#"><img src="./assets/mail.svg" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
